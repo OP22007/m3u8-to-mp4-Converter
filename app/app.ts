@@ -43,6 +43,6 @@ app.get('/:m3u8_url', async (req, res) => {
 
 
 
-app.listen(3000, () => {
-  console.log('** Server is listening on localhost:3000, open your browser on http://localhost:3000/ **');
+app.listen(3001, () => {
+  console.log('** Server is listening on localhost:3001, open your browser on http://localhost:3001/ **');
 });
